@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+   <body>
+	  <meta charset="utf-8" />
+      <div id="webchat" role="main"></div>
+      <style>
+            .main {position:fixed; bottom:0; left:0; width:100%;}
+            #webchat > div {position:fixed; bottom:41px; left:0; width:100%;}
+            .bubble {max-width:100% !important;} 
+            .attachment.bubble {max-width:480px !important;} 
+      </style>
+
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat-es5.js"></script>
+	  <script src="https://unpkg.com/markdown-it@8.4.2/dist/markdown-it.min.js"></script>
+ 
+ 	  <script>
+        (function() {
+          // In this demo, we are using Direct Line token from MockBot.
+          // Your client code must provide either a secret or a token to talk to your bot.
+          // Tokens are more secure. To learn about the differences between secrets and tokens
+          // and to understand the risks associated with using secrets, visit https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0
+        
+          // We are using a customized store to add hooks to connect event
+          const store = window.WebChat.createStore({}, function(store) {
+            return function(next) {
+              return function(action) {
+                if (action.type === "DIRECT_LINE/CONNECT_FULFILLED") {
+                  store.dispatch({
+                    type: "WEB_CHAT/SEND_EVENT",
+                    payload: {
+                      name: "webchat/join",
+                      value: { language: window.navigator.language }
+                    }
+                  });
+                }
+                return next(action);
+              };
+            };
+          });
+        
+          const styleOptions = {
+            userAvatarInitials: 'You',
+			botAvatarImage: 'https://www.croneri.co.uk/sites/all/themes/custom/blackfriars/logo.png',
+			botAvatarBackgroundColor: 'white',
+		    bubbleBackground: '#B2DAE1',
+            bubbleFromUserBackground: '#B2DAE1',
+			hideUploadButton: true,
+			sendBoxButtonColor: '#03787C',
+			sendBoxPlaceholderColor: '#03787C',
+			primaryFont: 'Arial'
+          };
+        
+          const markdownIt = window.markdownit({
+            html: true,
+            linkify: true,
+            typographer: true
+          });
+        
+          window.WebChat.renderWebChat(
+            {
+              directLine: window.WebChat.createDirectLine({
+                secret: "RqkHMpI5xIM.xu8L_gNevH7AY1BCEYfX4bqibYOe7aByM4Bq_fAaf0s"
+              }),
+              renderMarkdown: markdownIt.render.bind(markdownIt),
+              // Passing 'styleOptions' when rendering Web Chat
+              styleOptions: styleOptions,
+              store: store
+            },
+            document.getElementById("webchat")
+          );
+        
+          document.querySelector("#webchat > *").focus();
+        })().catch(function (err) {console.error(err)});
+    		 
+    </script>
+    
+	  <style>
+    		#webchat>* {
+    		font-size: 16px;
+    		font-weight: 400;
+    	  }
+	   </style>
+   </body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
