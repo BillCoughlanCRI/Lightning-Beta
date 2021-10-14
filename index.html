@@ -6,8 +6,9 @@
 	  <meta charset="utf-8" />
       <div id="webchat" role="main"></div>
       <style>
-            .main {position:fixed; bottom:0; left:0; width:100%;}
-            #webchat > div {position:fixed; bottom:41px; left:0; width:100%;}
+            
+            .main {position:fixed; bottom:0; left:0; width:100%; }
+            #webchat > div {position:fixed; bottom:41px; left:0; width:100%; background-color:#F4F4F4;}
             .bubble {max-width:100% !important;} 
             .attachment.bubble {max-width:480px !important;} 
       </style>
@@ -42,13 +43,19 @@
         
           const styleOptions = {
             userAvatarInitials: 'You',
-			botAvatarImage: 'https://www.croneri.co.uk/sites/all/themes/custom/blackfriars/logo.png',
+			botAvatarImage: './images/logosmall.png',
+      botAvatarInitials: 'CIL AI',
 			botAvatarBackgroundColor: 'white',
-		    bubbleBackground: '#B2DAE1',
-            bubbleFromUserBackground: '#B2DAE1',
+		    bubbleBackground: '#DFD282',
+            bubbleFromUserBackground: '#242F42',
+            bubbleFromUserTextColor: '#FFF',
+            bubbleFromUserBorderColor:'#DFD282',
+            userAvatarBackgroundColor:'#242F42',
+            sendBoxButtonColorOnFocus:'#DFD282',
+            sendBoxButtonColorOnHover:'#DFD282',
 			hideUploadButton: true,
-			sendBoxButtonColor: '#03787C',
-			sendBoxPlaceholderColor: '#03787C',
+			sendBoxButtonColor: '#2F2F2F',
+			sendBoxPlaceholderColor: '#2F2F2F',
 			primaryFont: 'Arial'
           };
         
