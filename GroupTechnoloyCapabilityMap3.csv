@@ -1,0 +1,46 @@
+﻿name,ring,quadrant,isNew,description
+ADF,Assess,Platform,FALSE,<p>Product</p><p>Warehouse</p>
+Ad-Hoc,Retain,Platform,FALSE,<p>Sales and Marketing</p><p>Content</p>
+Articulate - Rise 360,Assess,Platform,FALSE,<p>Product</p><p>Learning (product and customer tutorials)</p>
+AV3,Assess,Platform,FALSE,<p>Service (might be Operations) </p><p>Advice</p>
+Azure Alerts,Assess,Platform,FALSE,<p>Product</p><p>Alerting</p>
+Azure Schedules,Rationalise,Platform,FALSE,<p>Product</p><p>Job Scheduling</p>
+Calendly ,Assess,Platform,FALSE,<p>Service (might be Operations) </p><p>Agent Availablilty</p>
+Clouldingo,Retain,Platform,FALSE,<p>Sales and Marketing</p><p>Lead Cleansing</p>
+Confluence,Retain,Platform,FALSE,<p>Product</p><p>Knowledge Management</p>
+Dato,Assess,Platform,FALSE,<p>Product</p><p>Content Management</p>
+Deal Tunes Bespoke,Assess,Platform,FALSE,<p>Sales and Marketing</p><p>Team motiviation</p>
+Dev Ops,Assess,Platform,FALSE,<p>Product</p><p>CI</p>
+Dimensions,Assess,Platform,FALSE,"<p>Finance</p><p>Invoice, Credit Note</p>"
+Distribution Engine (DE),Rationalise,Platform,FALSE,<p>Sales and Marketing</p><p>Lead Distrinution</p>
+Doc Builder,Assess,Platform,FALSE,<p>Product</p><p>Document Building</p>
+Docusign,Retain,Platform,FALSE,<p>Sales and Marketing</p><p>Contract</p>
+Drift,Assess,Platform,FALSE,<p>Service (might be Operations) </p><p>Bot Support</p>
+Excel,Rationalise,Platform,FALSE,<p>Sales and Marketing</p><p>Report</p>
+Focal point,Assess,Platform,FALSE,<p>Finance</p><p>Purchase</p>
+GitHub,Retain,Platform,FALSE,<p>Product</p><p>SCM</p>
+Google Analytics,Assess,Platform,FALSE,<p>Product</p><p>Behavoural Analytics</p>
+Goto Webinar,Assess,Platform,FALSE,<p>Service (might be Operations) </p><p>Live Webinar Delivery </p>
+In Contact,Retain,Platform,FALSE,<p>Service (might be Operations) </p><p>Call Centre Reporting</p>
+Jira,Assess,Platform,FALSE,<p>Product</p><p>Backlog Management</p>
+JSTrace,Assess,Platform,FALSE,<p>Product</p><p>Operational Analytics</p>
+Marketo,Retain,Platform,FALSE,<p>Sales and Marketing</p><p>Distribution Channels</p>
+Microsoft 365,Retain,Platform,FALSE,<p>Service (might be Operations) </p><p>Customer Contact</p>
+MS Teams,Retain,Platform,FALSE,<p>Sales and Marketing</p><p>Tele-Sales</p>
+OAUTH Bespoke,Rationalise,Platform,FALSE,<p>Product</p><p>Authentication/Authorisation</p>
+Pendo,Assess,Platform,FALSE,<p>Product</p><p>Behavoural Analytics</p>
+PowerBI,Assess,Platform,FALSE,<p>Product</p><p>Behavoural Analytics</p>
+RingCentral,Retain,Platform,FALSE,<p>Sales and Marketing</p><p>Tele-Sales</p>
+Salesforce,Retain,Platform,FALSE,<p>Sales and Marketing</p><p>Customer Record</p>
+Stripe,Assess,Platform,FALSE,<p>Sales and Marketing</p><p>eCommerce</p>
+Transaction Search,Assess,Platform,FALSE,<p>Product</p><p>Operational Analytics</p>
+Twilio,Retain,Platform,FALSE,<p>Service (might be Operations) </p><p>Customer Contact</p>
+Unity,Assess,Platform,FALSE,<p>Finance</p><p>Account</p>
+Uptime robot,Assess,Platform,FALSE,<p>Product</p><p>Alerting</p>
+Word,Assess,Platform,FALSE,<p>Product</p><p>Meta Data Management</p>
+ELK,Assess,Platform,FALSE,<p>Product</p><p>Operational Analytics</p>
+OneTrust,Retain,Platform,FALSE,<p>Product</p><p>Privacy Management</p>
+Warehouse,Assess,Platform,FALSE,<p>Finance</p><p>Manage Debt</p>
+C#,Retain,Languages and Frameworks,FALSE,<p>Microsoft .NET Language</p>
+Data Mesh,Assess,Techniques,FALSE,<p>Data Mesh</p>
+Visual Studio,Retain,Tools,FALSE,<p>Microsoft Visual Studio IDE</p>

@@ -1,0 +1,45 @@
+﻿Name,quadrant,ring,description
+ADF,Platform,Assess,<p>Product</p><p>Warehouse</p>
+Ad-Hoc,Platform,Retain,<p>Sales and Marketing</p><p>Content</p>
+Articulate - Rise 360,Platform,Assess,<p>Product</p><p>Learning (product and customer tutorials)</p>
+AV3,Platform,Assess,<p>Service (might be Operations) </p><p>Advice</p>
+Azure Alerts,Platform,Assess,<p>Product</p><p>Alerting</p>
+Azure Schedules,Platform,Rationalise,<p>Product</p><p>Job Scheduling</p>
+Calendly ,Platform,Assess,<p>Service (might be Operations) </p><p>Agent Availablilty</p>
+Clouldingo,Platform,Retain,<p>Sales and Marketing</p><p>Lead Cleansing</p>
+Confluence,Platform,Retain,<p>Product</p><p>Knowledge Management</p>
+Dato,Platform,Assess,<p>Product</p><p>Content Management</p>
+Deal Tunes Bespoke,Platform,Assess,<p>Sales and Marketing</p><p>Team motiviation</p>
+Dev Ops,Platform,Assess,<p>Product</p><p>CI</p>
+Dimensions,Platform,Assess,"<p>Finance</p><p>Invoice, Credit Note</p>"
+Distribution Engine (DE),Platform,Rationalise,<p>Sales and Marketing</p><p>Lead Distrinution</p>
+Doc Builder,Platform,Assess,<p>Product</p><p>Document Building</p>
+Docusign,Platform,Retain,<p>Sales and Marketing</p><p>Contract</p>
+Drift,Platform,Assess,<p>Service (might be Operations) </p><p>Bot Support</p>
+Excel,Platform,Rationalise,<p>Sales and Marketing</p><p>Report</p>
+Focal point,Platform,Assess,<p>Finance</p><p>Purchase</p>
+GitHub,Platform,Retain,<p>Product</p><p>SCM</p>
+Google Analytics,Platform,Assess,<p>Product</p><p>Behavoural Analytics</p>
+Goto Webinar,Platform,Assess,<p>Service (might be Operations) </p><p>Live Webinar Delivery </p>
+In Contact,Platform,Retain,<p>Service (might be Operations) </p><p>Call Centre Reporting</p>
+Jira,Platform,Assess,<p>Product</p><p>Backlog Management</p>
+JSTrace,Platform,Assess,<p>Product</p><p>Operational Analytics</p>
+Marketo,Platform,Retain,<p>Sales and Marketing</p><p>Distribution Channels</p>
+Microsoft 365,Platform,Retain,<p>Service (might be Operations) </p><p>Customer Contact</p>
+MS Teams,Platform,Retain,<p>Sales and Marketing</p><p>Tele-Sales</p>
+OAUTH Bespoke,Platform,Rationalise,<p>Product</p><p>Authentication/Authorisation</p>
+Pendo,Platform,Assess,<p>Product</p><p>Behavoural Analytics</p>
+PowerBI,Platform,Assess,<p>Product</p><p>Behavoural Analytics</p>
+RingCentral,Platform,Retain,<p>Sales and Marketing</p><p>Tele-Sales</p>
+Salesforce,Platform,Retain,<p>Sales and Marketing</p><p>Customer Record</p>
+Stripe,Platform,Assess,<p>Sales and Marketing</p><p>eCommerce</p>
+Transaction Search,Platform,Assess,<p>Product</p><p>Operational Analytics</p>
+Twilio,Platform,Retain,<p>Service (might be Operations) </p><p>Customer Contact</p>
+Unity,Platform,Assess,<p>Finance</p><p>Account</p>
+Uptime robot,Platform,Assess,<p>Product</p><p>Alerting</p>
+Word,Platform,Assess,<p>Product</p><p>Meta Data Management</p>
+(blank),,,<p></p><p></p>
+ELK,Platform,Assess,<p>Product</p><p>Operational Analytics</p>
+OneTrust,Platform,Retain,<p>Product</p><p>Privacy Management</p>
+Warehouse,Platform,Assess,<p>Finance</p><p>Manage Debt</p>
+Grand Total,,,
